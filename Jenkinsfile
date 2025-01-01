@@ -3,8 +3,10 @@ pipeline {
 
     stages {
         stage('Hello') {
-            steps {
-                echo 'Exploring the when condition'
+            when {
+                steps {
+                    echo 'Exploring the when condition'
+                }
             }
         }
     }
