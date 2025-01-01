@@ -8,7 +8,7 @@ pipeline {
                 }
 
                 steps {
-                    echo 'Exploring the when condition'
+                    echo 'Exploring the when condition123'
                 }
         }
     }
